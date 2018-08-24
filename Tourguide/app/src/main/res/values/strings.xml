@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tour guide</string>
+    <string name="arbil">Arbil</string>
+   
+    <string name="arbil_intro">Erbil, also spelt Arbil or Irbil, locally called Hawler by the Kurdish people (Kurdish: ھەولێر‎ Hewlêr; Arabic: أربيل‎, Arbīl; Syriac: ܐܲܪܒܝܠ‎, Arbela), is the capital of Iraqi Kurdistan and the largest city in northern Iraq. It is located approximately 350 kilometres (220 miles) north of Baghdad. It has about 850,000 inhabitants,[1] and its governorate had a permanent population of 2,009,367 as of 2015.</string>
+    <string name="abu_shahab">abu shahab</string>
+    <string name="abu_shahab_phone">075012123232</string>
+    <string name="abu_shahab_location">Erbil</string>
+    <string name="ice_land">ice land</string>
+    <string name="ice_land_phone">075023232</string>
+    <string name="ice_land_location">baxtyray</string>
+    <string name="bees">bees</string>
+    <string name="bees_phone">0750232322</string>
+    <string name="bees_location">gulan street</string>
+    <string name="sheraton">sheraton</string>
+    <string name="sheraton_phone">0750232322</string>
+    <string name="divan">divan</string>
+    <string name="divan_phone">0750222322</string>
+    <string name="mariana">mariana</string>
+    <string name="mariana_phone">075023299</string>
+    <string name="sami">sami abdulrahman</string>
+    <string name="gulan">gulan Street</string>
+    <string name="erbil">Erbil</string>
+    <string name="shanadar">shanadar</string>
+    <string name="mnara">Mnara</string>
+    <string name="intro">Introduction</string>
+    <string name="hotel">Hotel</string>
+    <string name="parks">Parks</string>
+    <string name="resta">restaurants</string>
+    <string name="roche">La Roche Hotel</string>
+    <string name="roche_phone">066 210 1111</string>
+    <string name="roche_location">Ainkawa, Erbil</string>
+    <string name="peshmarga">peshmarga Park</string>
+    <string name="today">today</string>
+    <string name="today_phone">0750 490 7546</string>
+
+
+</resources>

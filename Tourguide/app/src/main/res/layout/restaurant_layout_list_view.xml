@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="50dp">
+
+    <ImageView
+        android:id="@+id/resta_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:id="@+id/resta_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_location_on_black_24dp" />
+
+        <TextView
+            android:id="@+id/resta_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/location"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_phone_black_24dp" />
+
+        <TextView
+            android:id="@+id/resta_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/location"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</LinearLayout>

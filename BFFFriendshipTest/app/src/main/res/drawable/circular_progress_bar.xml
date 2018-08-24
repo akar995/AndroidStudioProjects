@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--which used for progress depending on value-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="270"
+    android:toDegrees="270">
+    <!--        android:innerRadiusRatio="2.5" to make the circle bigger-->
+    <shape
+        android:innerRadiusRatio="2.5"
+        android:shape="ring"
+        android:thickness="3dp"
+        android:useLevel="true">
+
+        <gradient
+            android:endColor="@color/orange"
+            android:startColor="@color/orange"
+            android:type="sweep"
+            android:useLevel="false" />
+    </shape>
+</rotate>

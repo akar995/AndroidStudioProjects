@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluee"
+    android:orientation="vertical"
+    tools:context="com.recoded.musicplayer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/HomeImage"
+                android:src="@drawable/home" />
+
+            <Button
+                android:id="@+id/home"
+                style="@style/homeButton"
+                android:text="@string/home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/albumImage"
+                android:src="@drawable/album1" />
+
+            <Button
+                android:id="@+id/albums"
+                style="@style/albumButton"
+                android:text="@string/albums" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/SongImage"
+                android:src="@drawable/songs" />
+
+            <Button
+                android:id="@+id/songs"
+                style="@style/songButton"
+                android:onClick="songs"
+                android:text="songs" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/paymentImage"
+                android:src="@drawable/payment" />
+
+            <Button
+                android:id="@+id/payment"
+                style="@style/paymentButton"
+                android:text="@string/payment" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="home_activity"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/texthome"
+        android:text="@string/media_palyer" />
+
+    <TextView
+        style="@style/texthome"
+        android:text="@string/media_plyer_n_the_android_multimedia_framework_include_support_for_playing_varity_of_common_media_types_so_that_you_can_easily_integrate_audio_video_and_images_into_your_application_ypu_can_play_video_or_audio_from_midea_file_stores_in_your_applecatoins_n_n" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button style="@style/repetbutton" />
+
+        <Button style="@style/providebutton" />
+
+        <Button style="@style/playbutton" />
+
+        <Button style="@style/nextbutton" />
+
+        <Button style="@style/shullfebutton" />
+    </LinearLayout>
+
+</LinearLayout>

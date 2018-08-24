@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:id="@+id/Tile"
+        android:background="@drawable/catchme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Catch Me If You Can (2002)"
+            android:textColor="#B71C1C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Time:2H 21Min"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Rate"
+        android:layout_below="@id/Tile"
+        android:textColor="#FF1744"
+        android:textSize="20sp"
+        android:id="@+id/Rating"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/star"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.1"
+        android:textSize="20sp"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#3E2723"
+        android:layout_weight="1"
+        android:text="A seasoned FBI agent pursues Frank Abagnale Jr. who, before his 19th birthday, successfully forged millions of dollars' worth of checks while posing as a Pan Am pilot, a doctor, and a legal prosecutor."/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="90dp"
+           android:orientation="horizontal"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp">
+           <ImageView
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:scaleType="centerCrop"
+               android:layout_weight="1"
+               android:src="@drawable/leo"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"/>
+
+           <ImageView
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:scaleType="centerCrop"
+               android:layout_weight="1"
+               android:src="@drawable/leo2"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"/>
+           <ImageView
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               android:scaleType="centerCrop"
+               android:layout_weight="1"
+               android:src="@drawable/leo3"/>
+       </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:linksClickable="true"
+            android:autoLink="all"
+            android:layout_marginLeft="10dp"
+            android:text="IMDB"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Director:"
+            android:textColor="#3E2723"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steven Spielberg"
+            android:textColor="#3E2723"
+
+            android:layout_marginLeft="5dp"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

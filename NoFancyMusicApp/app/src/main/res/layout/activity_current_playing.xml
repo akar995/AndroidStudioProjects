@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgorund"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CurrentPlaying">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/track_image_view"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tracks" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/track_image_view"
+                    android:text="Track"
+                    android:textAllCaps="true"
+                    android:textFontWeight="" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/art"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/art" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="artists "
+                    android:textAllCaps="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/music_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="5"
+            android:paddingLeft="16dp"
+            android:src="@drawable/play_previous" />
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/pause" />
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="5"
+            android:paddingRight="17dp"
+            android:src="@drawable/play_next" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

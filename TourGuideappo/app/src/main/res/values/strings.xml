@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tour Guide app</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="erbil_citadel">Erbil Citadel</string>
+    <string name="erbil_citadel_paragraph">The citadel is situated on a large tell – or settlement mound – of roughly oval shape that is between 25 and 32 metres (82 and 105 ft) high. The area on top of the mound measures 430 by 340 metres (1,410 ft × 1,120 ft) and is 102,000 square metres (1,100,000 sq ft) large. Natural soil has been found at a depth of 36 metres (118 ft) below the present surface of the mound. The angle of the citadel mound\'s slopes is c. 45°. Three ramps, located on the northern, eastern and southern slopes of the mound, lead up to gates in the outer ring of houses. The southern gate was the oldest and was rebuilt at least once, in 1860, and demolished in 1960. The current gate house was constructed in 1979. The eastern gate is called the Harem Gate and was used by women. It seems unclear when the northern gate was opened. One source claims that it was opened in 1924, while another observes that there were only two gates in 1944 – the southern and eastern gates.</string>
+    <string name="halgurd_mountain_address">Choman, Iraq</string>
+    <string name="citadel_address">Erbil, Iraqi Kurdistan, Iraq</string>
+    <string name="halgurd_title">Halgurd Mountain</string>
+    <string name="halgurd_paragraph">Halgurd is the second highest mountain in Iraq, after Cheekha Dar. Located northern Arbil Province, Iraqi Kurdistan. Halgurd has an elevation of 3,607 metres.</string>
+    <string name="korek_title">Korek Mountain</string>
+    <string name="korek_paragraph"><![CDATA[Mount Korek is a tourist attraction, an Iraqi company has built an approximately 4 kilometer long Doppelmayr Teleferic(cable car) from its Bekhal Bottom station to Mount Korek. The mountain is developed as an international destination. The company has developed 132 villas and several rides in this project which is called \"The Korek Mountain Resort & Spa\". There are also restaurants and cafes. The resort is a summer retreat providing cool environs when the whole region reels under high temperatures. During winters, it turns into a Ski Resort.]]></string>
+    <string name="korek_address">Erbil, Iraq</string>
+    <string name="duhokdam_cityside">Duhok Dam is tucked into the valley 2 kilometers north of the city of Duhok. A serene blue lake has been created to supply water to the city and lends a sense of peace and well being to the surroundings. The Chwar Astoon temple is built alongside the water and there is also a large cave nearby that can be reached from the Duhok Valley.</string>
+    <string name="duhokdam_title">Duhok Dam</string>
+    <string name="amedi_title">Amedi</string>
+    <string name="amedi_paragraph">Amadiya  is a Kurdish town and popular summer resort and Hill station along a tributary to the Great Zab in the Dahuk Governorate of Iraqi Kurdistan.[1] The city is situated 4,600 feet (1,400 m) above sea level. The town is perched on a mountain, formerly only accessible by a narrow stairway cut into the rock. Amadiya has a well-integrated community of Assyrian Christians, Jews and Muslim Kurds who share the city and local social events.</string>
+    <string name="amedi_address">Duhok Province, Iraq</string>
+    <string name="duhokdam_address">Duhok,Iraq</string>
+    <string name="galisherana_title">Gali Sherana</string>
+    <string name="galisherana_paragraph">Gali Sherana in the province of Duhok has been one of the hottest tourist destination in the Kurdistan Region this summer thanks to its stunning landscape and nature.The place remained untouched until recently. The location resides in the mountains, meaning people have to hike at least for two hours before reaching the spot.People on social media have called Gali Sherana “the paradise of Kurdistan” with its blue water and stunning view. The water is extremely cold and crystal clear.Tourists have called on the government to build an appropriate road to the area and provide more services. Many concerned environmentalists and outdoor enthusiasts have also urged the government to protect the area and keep it pristine, calling on them to establish rules and force visitors not to throw or leave their garbage behind and clean up after themselves.</string>
+    <string name="galisherana_address">Duhok Province, Iraq</string>
+    <string name="divan_title">Divan Hotel</string>
+    <string name="divan_paragraph">A towering addition to Divan Group’s collection of fine 5 star hotels, Divan Erbil brings innovative style and state-of–the-art luxury to the heart of the world\'s longest inhabited city, Erbil, Iraq. As the most visually striking modern structure in Erbil, and a local landmark, Divan Erbil Hotel incorporates the latest in leisure and business technology, luxury accommodations and amenities, redefining the Business Hotel from the ground up to its 24 stories. Innovative design elements and elegant décor make for a superior guest experience. Expansive walls of glass are flooded with the abundant Iraqi sun and afford dramatic views of the city and nearby park both day and night.</string>
+    <string name="divan_address">Erbil, Iraq</string>
+    <string name="grandmellenium_title">Grand Mellenium Hotel</string>
+    <string name="grandmellenium_paragraph">The best way to see Sulaimani has to be from luxurious 5-star Grand Millennium Hotel Sulaymainyah. Offering a view that is unmatched from the 360 Revolving Restaurant, you can’t go wrong with a candlelit dinner there.Surrounded by mountain ranges, Sulaimani is a city in Iraqi Kurdistan with much to offer both culture seekers and business travellers. Our prime location in the heart of the commercial district gives you convenient access to local government offices and resident businesses. Grand Millennium Sulaimani hotel is also an excellent base from which to explore the Old Bazaar and other historic sites. Amenities wise, we offer high-speed Wi-Fi in all 253 spacious rooms, the latest technology in all meeting and event venues, and even tennis and squash courts.</string>
+    <string name="grandmellenium_address">Sulaymaniyah,Iraq</string>
+    <string name="rixos_title">Rixos Hotel</string>
+    <string name="rixos_paragraph">This is an amazing hotel to visit and serve as your home base while visiting in Duhok. The rooms are lovely, the view of the city incredible, and the staff could not be lovelier. The spa offers Thai massage, and you have several restaurants to make sure you are well-fed while you are there. Be sure to visit the Zawita area with its lovely nearby dam, restaurants that specialize in roasted fish, and the bright red cable cars that will lift you up to the mountain side.</string>
+    <string name="rixos_address">Duhok, Iraq</string>
+    <string name="abc_title">ABC Restaurant</string>
+    <string name="abc_paragraph">Enjoy many different restaurants with its special fun for the places. walking in it makes you feel that you are having time in an USA street. Delicious foods and excellent services.</string>
+    <string name="abc_address">Erbil, Iraq</string>
+    <string name="dawa_title">Dawa 2 Restaurant</string>
+    <string name="dawa_paragraph">Dawa 2 restaurant is one of the most generous restaurants in Erbil. First they will serve numerous types of appetizers and soft drinks. The appetizers are cold and hot. The cold ones are composed of Salads, Humus, Dolma and other Turkish salads. The hot could be Kubba and grilled meat and chicken. Then you can order your main course. After that they will provide sweets like Turkish Baklawa, and then black tea. So if you are too hungry you can go their.</string>
+    <string name="dawa_address">Erbil, Iraq</string>
+    <string name="returnOne">Must Visit</string>
+    <string name="returnTwo">Restaurants</string>
+    <string name="returnThree">Hotels</string>
+    <string name="returnFour">CitySides</string>
+    <string name="returnNull">null</string>
+</resources>

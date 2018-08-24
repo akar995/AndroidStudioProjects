@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ThisIsMenu</string>
+    <string name="key">location_target</string>
+</resources>

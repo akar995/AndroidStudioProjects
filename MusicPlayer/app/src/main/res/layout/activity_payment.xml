@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluee"
+    android:orientation="vertical"
+    tools:context="com.recoded.musicplayer.Payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/HomeImage"
+                android:src="@drawable/home" />
+
+            <Button
+                android:id="@+id/home"
+                style="@style/homeButton"
+                android:text="@string/home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/albumImage"
+                android:src="@drawable/album1" />
+
+            <Button
+                android:id="@+id/albums"
+                style="@style/albumButton"
+                android:text="@string/albums" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/SongImage"
+                android:src="@drawable/songs" />
+
+            <Button
+                android:id="@+id/songs"
+                style="@style/songButton"
+                android:onClick="songs"
+                android:text="songs" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/paymentImage"
+                android:src="@drawable/payment" />
+
+            <Button
+                android:id="@+id/payment"
+                style="@style/paymentButton"
+                android:text="@string/payment" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Payment Activity"
+            android:textColor="#000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextPayment"
+            android:text="@string/android_pay_api_n_a_significant_portion_of_the_android_pay_apis_functionality_is_provided_as_part_of_google_play_service_for_developing_on_andriod_n_the_follow_looks_like_this_n1_when_the_user_taps_the_android_pay_button_the_maskedwallet_information_the_information_such_as_billidng_adress_shipping_adress_masked_backing_payment_instrunent_number_and_card_item_n2_google_returns_a_maskedwallet_response_containing_the_user_s_wallet_information_the_app_uses_this_information_to_present_order_review_screens_and_othe_options_n3_to_complete_the_order_the_app_requests_the_fullwallet_n" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgorund"
+
+    android:padding="16dp"
+    tools:context=".Artist">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/track_image_view"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tracks" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/track_image_view"
+                android:text="@string/tracks"
+                android:layout_alignParentBottom="true"
+                android:textAllCaps="true"
+                android:textFontWeight="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/art"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/art" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/art"
+                android:text="artists"
+
+                android:textAllCaps="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/art_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:padding="16dp"></GridView>
+</LinearLayout>

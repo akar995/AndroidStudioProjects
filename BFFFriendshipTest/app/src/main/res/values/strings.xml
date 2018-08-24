@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BFF Friendship Test</string>
+    <string name="bff_test">BFF Test</string>
+    <string name="friend_name">Friend name</string>
+    <string name="your_name">Your name</string>
+    <string name="start">START</string>
+    <string name="first_question">Have you ever taken a trip together?</string>
+    <string name="yes">Yes</string>
+    <string name="sometimes">Sometimes</string>
+    <string name="no">No</string>
+    <string name="third_quetion">Have you ever told anyone else his secret?</string>
+    <string name="fourth_question">Would you end your friendship with him right now if you could?</string>
+    <string name="fifth_question">Do you shop together?</string>
+    <string name="share">share</string>
+    <string name="try_another_test">Try another test</string>
+</resources>

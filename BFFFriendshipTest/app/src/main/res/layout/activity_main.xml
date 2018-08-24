@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--background for first activity-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/main_background" />
+
+        <!--first activity -->
+        <LinearLayout
+            android:id="@+id/first_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+            <!--header name-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size_64"
+                android:layout_marginTop="@dimen/size_104"
+                android:gravity="center"
+                android:text="@string/bff_test"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_60sp" />
+            <!--your name editText-->
+            <EditText
+                android:id="@+id/ev_your_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size_28"
+                android:layout_marginLeft="@dimen/size_16"
+                android:layout_marginRight="@dimen/size_16"
+                android:background="@drawable/rounded_rectangle"
+                android:gravity="center"
+                android:hint="@string/your_name"
+                android:padding="@dimen/size_16" />
+            <!--Frind name editText-->
+            <EditText
+                android:id="@+id/ev_friend_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_16"
+                android:layout_marginRight="@dimen/size_16"
+                android:background="@drawable/rounded_rectangle"
+                android:gravity="center"
+                android:hint="@string/friend_name"
+                android:padding="@dimen/size_16" />
+
+            <!--start button to open another activity-->
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_36"
+                android:layout_marginRight="@dimen/size_36"
+                android:layout_marginTop="@dimen/size_64"
+                android:background="@drawable/rounded_rectangle_button"
+                android:padding="@dimen/size_16"
+                android:text="@string/start"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!--second activity which about questions-->
+        <RelativeLayout
+            android:id="@+id/second_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+
+            <!--first section which means displays first question-->
+            <LinearLayout
+                android:id="@+id/first_section"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+                <!--this used for progress which is the orange one which used to know how many questions are remained  -->
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:padding="@dimen/size_8"
+                    android:progress="20" />
+
+                <!--first question to be displayed-->
+                <TextView
+                    android:id="@+id/tv_first_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_104"
+                    android:gravity="center"
+                    android:text="@string/first_question"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/size_34sp" />
+
+                <!--option one-->
+                <Button
+                    android:id="@+id/btn_option_one_for_first_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/yes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+
+                <!--option two-->
+                <Button
+                    android:id="@+id/btn_option_two_for_first_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/sometimes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+                <!--option three-->
+                <Button
+                    android:id="@+id/btn_option_three_for_first_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/no"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--second section which means displays second question-->
+            <LinearLayout
+                android:id="@+id/second_section"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:padding="@dimen/size_8"
+                    android:progress="40" />
+                <!--second question to be displayed-->
+                <TextView
+                    android:id="@+id/tv_second_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_152"
+                    android:gravity="center"
+                    android:text="Has he ever told you a very deep secret?"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/size_34sp" />
+
+                <!--option one-->
+                <Button
+                    android:id="@+id/btn_option_one_for_second_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/yes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+
+                <!--option two-->
+                <Button
+                    android:id="@+id/btn_option_two_for_second_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/sometimes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+                <!--option three-->
+                <Button
+                    android:id="@+id/btn_option_three_for_second_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/no"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--third section which means displays third question-->
+            <LinearLayout
+                android:id="@+id/third_section"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:padding="@dimen/size_8"
+                    android:progress="60" />
+                <!--third question to be displayed-->
+                <TextView
+                    android:id="@+id/tv_third_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_152"
+                    android:gravity="center"
+                    android:text="@string/third_quetion"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/size_34sp" />
+
+                <!--option one-->
+                <Button
+                    android:id="@+id/btn_option_one_for_third_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/yes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+
+                <!--option two-->
+                <Button
+                    android:id="@+id/btn_option_two_for_third_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/sometimes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+                <!--option three-->
+                <Button
+                    android:id="@+id/btn_option_three_for_third_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/no"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--fourth section which means displays fourth question-->
+            <LinearLayout
+                android:id="@+id/fourth_section"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:padding="@dimen/size_8"
+                    android:progress="80" />
+                <!--fourth question to be displayed-->
+                <TextView
+                    android:id="@+id/tv_fourth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_152"
+                    android:gravity="center"
+                    android:text="@string/fourth_question"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/size_34sp" />
+
+                <!--option one-->
+                <Button
+                    android:id="@+id/btn_option_one_for_fourth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/yes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+
+                <!--option two-->
+                <Button
+                    android:id="@+id/btn_option_two_for_fourth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/sometimes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+                <!--option three-->
+                <Button
+                    android:id="@+id/btn_option_three_for_fourth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/no"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--fifth section which means displays fifth question-->
+            <LinearLayout
+                android:id="@+id/fifth_section"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:padding="@dimen/size_8"
+                    android:progress="100" />
+                <!--fifth question to be displayed-->
+                <TextView
+                    android:id="@+id/tv_fifth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_152"
+                    android:gravity="center"
+                    android:text="@string/fifth_question"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/size_34sp" />
+
+                <!--option one-->
+                <Button
+                    android:id="@+id/btn_option_one_for_fifth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/yes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+
+                <!--option two-->
+                <Button
+                    android:id="@+id/btn_option_two_for_fifth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/sometimes"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+                <!--option three-->
+                <Button
+                    android:id="@+id/btn_option_three_for_fifth_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16"
+                    android:layout_marginRight="@dimen/size_16"
+                    android:layout_marginTop="@dimen/size_16"
+                    android:background="@drawable/rounded_rectangle_button_white"
+                    android:padding="@dimen/size_16"
+                    android:text="@string/no"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_change_color"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <!--last activity which show the result-->
+        <LinearLayout
+            android:id="@+id/third_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <!--header-->
+            <TextView
+                android:id="@+id/tv_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size_16"
+                android:layout_marginTop="@dimen/size_104"
+                android:gravity="center"
+                android:text="Your friendship strength with him is about"
+                android:textColor="#fff"
+                android:textSize="@dimen/size_28sp" />
+
+            <!--the result-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <!--this is circular progress and the progress reaches to end when the value is 100 -->
+                <ProgressBar
+                    android:id="@+id/circular_progress_result"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/circle_shape"
+                    android:max="100"
+                    android:progress="50"
+                    android:progressDrawable="@drawable/circular_progress_bar" />
+
+                <!--this show the percentage of the result-->
+                <TextView
+                    android:id="@+id/tv_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_80"
+                    android:text="50%"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_28sp" />
+
+            </RelativeLayout>
+
+            <!--share the result-->
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_16"
+                android:layout_marginRight="@dimen/size_16"
+                android:layout_marginTop="@dimen/size_28"
+                android:background="@drawable/rounded_rectangle_button"
+                android:padding="@dimen/size_16"
+                android:text="@string/share"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16sp" />
+
+            <!--reset button-->
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_16"
+                android:layout_marginRight="@dimen/size_16"
+                android:layout_marginTop="@dimen/size_28"
+                android:background="@drawable/rounded_rectangle_button"
+                android:padding="@dimen/size_16"
+                android:text="@string/try_another_test"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

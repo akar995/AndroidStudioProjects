@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluee"
+    android:orientation="vertical"
+    tools:context="com.recoded.musicplayer.Albums">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/HomeImage"
+                android:src="@drawable/home" />
+
+            <Button
+                android:id="@+id/home"
+                style="@style/homeButton"
+                android:text="@string/home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/albumImage"
+                android:src="@drawable/album1" />
+
+            <Button
+                android:id="@+id/albums"
+                style="@style/albumButton"
+                android:text="@string/albums" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/SongImage"
+                android:src="@drawable/songs" />
+
+            <Button
+                android:id="@+id/songs"
+                style="@style/songButton"
+                android:onClick="songs"
+                android:text="songs" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/paymentImage"
+                android:src="@drawable/payment" />
+
+            <Button
+                android:id="@+id/payment"
+                style="@style/paymentButton"
+                android:text="@string/payment" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#000000"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Albums_activity"
+            android:textColor="#000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/albumtext"
+            android:text="@string/albums_contant_all_albums_in_your_divice" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/album1image"
+                android:src="@drawable/album2" />
+
+            <TextView
+                style="@style/textalbum1"
+                android:text="@string/album1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                style="@style/album2image"
+                android:src="@drawable/album3" />
+
+            <TextView
+                style="@style/album2text"
+                android:text="@string/album2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

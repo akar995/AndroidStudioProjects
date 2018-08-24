@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="London"
+        android:inputType="text"
+        android:key="@string/settings_key"
+        android:selectAllOnFocus="true"
+        android:title="Location"/>
+</PreferenceScreen>

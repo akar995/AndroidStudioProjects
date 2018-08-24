@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PING PONG SCORE</string>
+    <string name="team_a">Team A</string>
+    <string name="TeamAScore">0</string>
+    <string name="TeamAServe">2</string>
+    <string name="TeamAServerLabel">serve</string>
+    <string name="TeamAFoulsLabel">Fouls</string>
+    <string name="TeamAFouls" />
+    <string name="TeamBLabel">Team B</string>
+    <string name="TeamBScore">0</string>
+    <string name="TeamBServe">0</string>
+    <string name="TeamBserveLabel">serve</string>
+    <string name="TeamBFoulLabel">Fouls</string>
+    <string name="TeamA1Point">1 point</string>
+    <string name="TeamAfouls">Fouls</string>
+    <string name="TeamB1Point">1 point</string>
+    <string name="TeamBFouls">Fouls</string>
+    <string name="reset">reset</string>
+</resources>

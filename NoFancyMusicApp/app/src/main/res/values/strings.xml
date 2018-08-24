@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">No Fancy Music App</string>
+    <string name="title_activity_artistic">Artistic</string>
+    <string name="title_activity_art_track_activity">art_track_activity</string>
+    <string name="title_activity_current_playing">CurrentPlaying</string>
+    <string name="tracks">Tracks</string>
+
+</resources>

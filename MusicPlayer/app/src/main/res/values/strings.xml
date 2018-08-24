@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="android_pay_api_n_a_significant_portion_of_the_android_pay_apis_functionality_is_provided_as_part_of_google_play_service_for_developing_on_andriod_n_the_follow_looks_like_this_n1_when_the_user_taps_the_android_pay_button_the_maskedwallet_information_the_information_such_as_billidng_adress_shipping_adress_masked_backing_payment_instrunent_number_and_card_item_n2_google_returns_a_maskedwallet_response_containing_the_user_s_wallet_information_the_app_uses_this_information_to_present_order_review_screens_and_othe_options_n3_to_complete_the_order_the_app_requests_the_fullwallet_n">Android Pay API  A significant portion of the Android pay APIs functionality is provided as part of google play service for developing on andriod  the follow looks like this: 1- When the user taps the android pay button the maskedWallet information .The information such as billidng adress, shipping adress, masked backing payment instrunent number and card item 2- Google returns a MaskedWallet response containing the user\'s wallet information The app uses this information to present order review screens and othe options 3- To complete the order, the app requests the FullWallet</string>
+    <string name="media_plyer_n_the_android_multimedia_framework_include_support_for_playing_varity_of_common_media_types_so_that_you_can_easily_integrate_audio_video_and_images_into_your_application_ypu_can_play_video_or_audio_from_midea_file_stores_in_your_applecatoins_n_n">Media Plyer   The android multimedia framework include support for playing varity of common media types . so that you can easily integrate audio , video and images into your application , ypu can play video or audio from midea file stores in your applecatoins</string>
+    <string name="media_palyer">media palyer</string>
+    <string name="albums_contant_all_albums_in_your_divice">Albums Contant all albums in your divice.</string>
+    <string name="album1">Album1</string>
+    <string name="album2">Album2</string>
+    <string name="midea_store_n_this_lay_out_contant_all_songs_of_all_albums">Midea Store  this lay out contant all songs of all albums</string>
+    <string name="song2">song2</string>
+    <string name="song3">song3</string>
+    <string name="song4">song4</string>
+    <string name="home">home</string>
+    <string name="albums">Albums</string>
+    <string name="payment">payment</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="albums_activity">Albums Activity</string>
+</resources>

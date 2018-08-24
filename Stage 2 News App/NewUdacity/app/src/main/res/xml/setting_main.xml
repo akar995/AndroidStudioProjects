@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <PreferenceCategory
+        android:title="Specific Search"
+        android:key="pref2">
+    <ListPreference
+        android:title="Sorting date"
+        android:key="@string/sorting_type"
+        android:dialogTitle="Sort by"
+        android:defaultValue="@string/sorting_type"
+        android:entryValues="@array/sorting_array"
+        android:entries="@array/sorting_array"
+        android:negativeButtonText="Cancel"/>
+    </PreferenceCategory>
+</PreferenceScreen>
